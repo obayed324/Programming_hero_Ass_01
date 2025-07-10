@@ -6,6 +6,7 @@
 .Header{
     background-image: url('../Assets/Hero-bg.png');
     height: 698px;
+    margin-bottom: 80px;
 }
 .Navigation-bar{
     max-width: 1140px;
@@ -55,4 +56,39 @@ button a{
     width: 174px;
     height: 46px;
     font-size: 18px;
+}
+
+/* Action-section */
+
+.Action-section{
+    /* margin-top: ; */
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    max-width: 1140px;
+    max-height: 328px;
+    margin: auto;
+    align-items: center;
+}
+.Action-section-text h1{
+    font-size: 42px;
+    font-weight: bold;
+
+}
+.Action-section-text p{
+    width: 440px;
+    height: 60px;
+    font-size: 24px;
+    color: #252432;
+}
+.Action-section-image img{
+    width: 403px;
+    height: 328px;
+    border-radius: 50px;
+}
+.launch-button{
+    margin-top: 15px;
+    width: 229px;
+    height: 48px;
+    padding: 12px 36px;
 }
