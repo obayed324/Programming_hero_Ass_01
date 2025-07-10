@@ -69,6 +69,7 @@ button a{
     max-height: 328px;
     margin: auto;
     align-items: center;
+    margin-bottom: 80px;
 }
 .Action-section-text h1{
     font-size: 42px;
@@ -91,4 +92,41 @@ button a{
     width: 229px;
     height: 48px;
     padding: 12px 36px;
+}
+
+/* Productive Users Section */
+
+.Productive-Users-Section{
+    background-color: #DCDCFC;
+    max-width: 1140px;
+    max-height: 306px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 50px 80px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.users{
+    display: flex;
+    gap: 158px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.user h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.user p{
+    font-size: 20px;
+    color: #000000;
 }
