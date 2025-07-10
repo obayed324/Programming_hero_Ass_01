@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+.Header{
+    background-image: url('../Assets/Hero-bg.png');
+    height: 698px;
+}
+.Navigation-bar{
+    max-width: 1140px;
+    height: 151px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.Navigation-bar h1{
+    color: #4E47FF;
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.Button{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 132px;
+    height: 48px;
+    border-radius: 10px;
+    border: #4E47FF;
+    padding: 8px;
+}
+.Banner{
+    
+    margin-top: 158px;
+    align-items: center;
+    text-align: center;
+}
+.Banner h1{
+    max-width: 905px;
+    max-height: 152px;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    color: #252432;
+}
+.Focused-button{
+    margin-top: 37px;
+    width: 174px;
+    height: 46px;
+    font-size: 18px;
+}
