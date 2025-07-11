@@ -194,6 +194,7 @@ button a{
     background-color: #FFFFFF;
     text-align: center;
     padding: 71px 150px;
+    margin-bottom: 80px;
 }
 .optional-section h1{
     
@@ -211,4 +212,64 @@ button a{
     height: 362px;
     border-radius: 30px;
     margin-top: 20px;
+}
+/* massage-area */
+.massage-area{
+    max-width: 1140px;
+    max-height: 490px;
+    padding: 71px 0 71px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.massage-area-title{
+    font-size: 70px;
+    font-weight: bold;
+    
+}
+.form-section label{
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.form-section{
+    max-width: 497px;
+    max-height: 490px;
+}
+.form-section input[type="email"],.form-section input[type="text"]{
+    margin-top: 10px;
+    width: 435px;
+    height: 24px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding: 20px 32px;
+    margin-bottom: 24px;
+    border: none;
+}
+.form-section textarea{
+    margin-top: 10px;
+    height: 190px;
+    width: 435px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding: 20px 32px;
+    margin-bottom: 24px;
+    border: none;
+}
+.btn-Get-in-Touch {
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 300;
+    width: 497px;
+    height: 62px;
+    border-radius: 10px;
+    border: #4E47FF;
+    padding: 20px 100px;
 }
